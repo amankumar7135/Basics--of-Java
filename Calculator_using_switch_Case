@@ -1,0 +1,40 @@
+import java.util.Scanner;
+
+public class calculator {
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        System.out.println("Enter the first number: ");
+        int num1=sc.nextInt();
+        System.out.println("enter the second number: ");
+        int num2=sc.nextInt();
+        System.out.println("enter 1: addition \n enter 2: subtration \n enter 3: multiplication \n enter 4 : division");
+        int a=sc.nextInt();
+
+        switch(a){
+            case 1:
+
+                System.out.println("after addition: "+num1+num2);
+break;
+
+            case 2:
+
+                System.out.println("after subtraction: "+( num1-num2));
+                break;
+
+            case 3:
+
+                System.out.println("after multiplication: "+num1*num2);
+                break;
+
+            case 4:{
+                if(num2==0){
+                    System.out.println("denominator can't 0");
+                }
+                else{
+                System.out.println("after division: "+num1/num2);
+                break;
+            }}
+
+        }
+    }
+}
