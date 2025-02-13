@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class right_angle_with_01 {
+public class palindrome_checker {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
         System.out.println("enter the number you want to check: ");
