@@ -2,7 +2,7 @@ import java.util.Scanner;
 public class Product_of_digit {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
-        System.out.println("enter the number you want to check: ");
+        System.out.println("enter the number you want to konw the product: ");
         int num=sc.nextInt();
         int pro=1;
 
